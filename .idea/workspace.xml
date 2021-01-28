@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9a624a-cc17-4506-99a9-c7747c7a054d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drinks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nonblocking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closedFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closureExample1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611253521463</updated>
-      <workItem from="1611253523414" duration="3292000" />
+      <workItem from="1611253523414" duration="3468000" />
+      <workItem from="1611853877902" duration="2582000" />
     </task>
     <servers />
   </component>
