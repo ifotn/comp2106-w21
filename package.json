@@ -1,0 +1,24 @@
+{
+  "name": "w21",
+  "version": "1.0.0",
+  "description": "In-Class Node App for COMP2106-W2021",
+  "main": "tax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifotn/comp2106-w21.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "npm"
+  ],
+  "author": "RF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifotn/comp2106-w21/issues"
+  },
+  "homepage": "https://github.com/ifotn/comp2106-w21#readme"
+}
