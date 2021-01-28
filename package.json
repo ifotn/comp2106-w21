@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ifotn/comp2106-w21/issues"
   },
-  "homepage": "https://github.com/ifotn/comp2106-w21#readme"
+  "homepage": "https://github.com/ifotn/comp2106-w21#readme",
+  "dependencies": {
+    "accounting": "^0.4.1"
+  }
 }

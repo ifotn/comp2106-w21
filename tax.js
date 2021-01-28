@@ -4,10 +4,13 @@ const http = require('http')
 // user node's url library to read the URL for a parameter called "subtotal"
 const url = require('url')
 
+// link the accounting npm package we added to the project to format the currency values
+const accounting = require('accounting')
+
 // start web server
 http.createServer((req, res) => {
     // http header
-    res.writeHead(200, { 'Content-Type': 'text-plain'})
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=UTF-8' })
 
     // page content
     res.write('<h3>Tax Calculator</h3>')
@@ -25,9 +28,9 @@ http.createServer((req, res) => {
     let total = parseFloat(subTotal) + tax
 
     // display values
-    res.write('<h4>Sub Total: ' + subTotal + '</h4>' +
-        '<h4>Tax: ' + tax + '</h4>' +
-        '<h4>Total: ' + total + '</h4>')
+    res.write('<h4>Sub Total: ' + accounting.formatMoney(subTotal) + '</h4>' +
+        '<h4>Tax: ' + accounting.formatMoney(tax) + '</h4>' +
+        '<h4>Total: ' + accounting.formatMoney(total) + '</h4>')
 
     // end response
     res.end()
