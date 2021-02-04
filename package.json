@@ -2,7 +2,7 @@
   "name": "w21",
   "version": "1.0.0",
   "description": "In-Class Node App for COMP2106-W2021",
-  "main": "tax.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ifotn/comp2106-w21#readme",
   "dependencies": {
-    "accounting": "^0.4.1"
+    "accounting": "^0.4.1",
+    "connect": "^3.7.0"
   }
 }
